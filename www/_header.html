@@ -1,9 +1,9 @@
 <header id="header">
   <img src="/images/logo.png" class="logo fit" alt="Vapid logo">
-  <p class="tagline">For people who build websites for other people</p>
+  <p class="tagline">{{tagline}}</p>
 
   <div class="intro">
-    <p>Vapid is an intentionally simple content management system built on the idea that you can <em>create a custom dashboard without ever leaving the HTML</em>.</p>
+    {{intro type=html}}
   </div>
 
   <div class="buttons">
@@ -33,7 +33,7 @@
   </div>
 
   <div class="caption">
-    <h4>The HTML <em>is</em> the CMS</h4>
-    <p>Add simple template tags to a static webpage, and Vapid will automatically generate the dashboard for you. No config files, no other languages required.</p>
+    <h4>{{caption_headline type=html}}</h4>
+    <div class="content">{{caption_body type=html}}</div>
   </div>
 </header>

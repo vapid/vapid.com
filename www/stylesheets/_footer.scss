@@ -1,9 +1,19 @@
 #footer {
-  font-size: 1.4rem;
+  font-size: 1.2rem;
   line-height: 1em;
   margin: 0 auto 6rem auto;
   padding: 0 2rem;
   max-width: $content-width;
+
+  @include desktop {
+    font-size: 1.4rem;
+  }
+
+  a {
+    font-style: italic;
+    font-weight: 600;
+    color: $color-code;
+  }
 
   &:before {
     display: block;
@@ -34,7 +44,7 @@
   }
 
   .menu {
-    margin-right: 4.5rem;
+    margin-right: 3rem;
 
     @include desktop {
       margin-right: 9rem;

@@ -18,7 +18,9 @@
     </div>
     <div class="deployed">
       <h5>Deployed live by</h5>
-      <img src="/images/logo_CAH.png" alt="Cards Against Humanity logo" /><img src="/images/logo_HotDougs.png" alt="Hot Dougs logo" />
+      {{#section customers sortable=true}}
+        <img src="{{logo type=image tag=false}}" alt="{{alt escape=true}}">
+      {{/section}}
     </div>
     {{> ethos}}
     {{> get_started}}
