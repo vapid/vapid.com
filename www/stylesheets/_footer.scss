@@ -4,9 +4,11 @@
   margin: 0 auto 6rem auto;
   padding: 0 2rem;
   max-width: $content-width;
+  text-align: center;
 
   @include desktop {
     font-size: 1.4rem;
+    text-align: left;
   }
 
   a {
@@ -25,15 +27,20 @@
     opacity: 0.5;
   }
 
-  > div {
-    display: flex;
+  @include desktop {
+    > div {
+      display: flex;
 
-    div:first-child {
-      flex: 1;
+      div:first-child {
+        flex: 1;
+      }
     }
   }
 
   .logo {
+    display: block;
+    margin-bottom: 3rem;
+
     img {
       max-width: 8.8rem;
     }
@@ -44,6 +51,7 @@
   }
 
   .menu {
+    display: inline-block;
     margin-right: 3rem;
 
     @include desktop {

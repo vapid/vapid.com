@@ -1,19 +1,26 @@
 #get-started {
 	.container {
-		background: url(../images/bg_get_started.png) center 8rem no-repeat;
+		background: url(../images/bg_get_started.png) center 4rem no-repeat;
 		background-size: 51rem auto;
-		padding-top: 16rem; 
-		padding-bottom: 16rem; 
+		padding-top: 12rem; 
+		padding-bottom: 12rem; 
 		text-align: center;
 
-		> div {
-			flex: 1;
-			margin-right: 6rem;
-		}
+		@include desktop {
+			padding-top: 16rem; 
+			padding-bottom: 16rem;
+			background-position: center 8rem;
 
-		> .content {
-			padding-left: 6rem;
-			margin-bottom: 6rem;
+			> div {
+				flex: 1;
+				margin-right: 6rem;
+			}
+
+			> .content {
+				padding-left: 6rem;
+				margin-bottom: 6rem;
+			}
+
 		}
 
 		@include desktop {
