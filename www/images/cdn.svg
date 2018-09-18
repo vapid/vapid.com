@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="51px" height="51px" viewBox="0 0 51 51" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.3 (57544) - http://www.bohemiancoding.com/sketch -->
+    <title>icon_hosting_CDN</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Demo" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round">
+        <g id="Desktop-HD-Copy-2" transform="translate(-936.000000, -1555.000000)" stroke="#9013FE" stroke-width="2">
+            <g id="Battle-ready-hosting" transform="translate(731.000000, 1315.000000)">
+                <g id="Benefits" transform="translate(0.000000, 200.000000)">
+                    <g id="CDN" transform="translate(160.000000, 1.000000)">
+                        <g id="icon_hosting_CDN" transform="translate(46.000000, 40.000000)">
+                            <path d="M31.3645565,16.7558609 L48.0925565,0.0925565217" id="Stroke-3703"></path>
+                            <path d="M0,47.9998957 L16.728,31.3365913" id="Stroke-3704"></path>
+                            <polyline id="Stroke-3705" points="10.4347826 48.0200348 0 48.0002087 0.019826087 37.5654261"></polyline>
+                            <polyline id="Stroke-3706" points="48.0722087 10.5272348 48.0920348 0.0924521739 37.6572522 0.072626087"></polyline>
+                            <path d="M31.336487,31.3645565 L47.9997913,48.0925565" id="Stroke-3707"></path>
+                            <path d="M0.0924521739,0 L16.7557565,16.728" id="Stroke-3708"></path>
+                            <polyline id="Stroke-3709" points="0.0723130435 10.4347826 0.0921391304 0 10.5269217 0.019826087"></polyline>
+                            <polyline id="Stroke-3710" points="37.565113 48.0722087 47.9998957 48.0920348 48.0197217 37.6572522"></polyline>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="540px" height="143px" viewBox="0 0 540 143" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.3 (57544) - http://www.bohemiancoding.com/sketch -->
+    <title>Arc 3</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Demo" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Desktop-HD-Copy-2" transform="translate(-461.000000, -990.000000)" fill-rule="nonzero" stroke="#9013FE" stroke-width="2">
+            <g id="Arc-3" transform="translate(461.000000, 990.000000)">
+                <circle id="Oval-3" cx="4" cy="4" r="3"></circle>
+                <path d="M5.5782184,5.67732177 C72.2151188,85.6786582 154.08292,130.347767 251.181623,139.684648 C348.280325,149.021529 442.628687,110.275295 534.226709,23.4459469" id="Path-3"></path>
+                <circle id="Oval-3" cx="536" cy="22" r="3"></circle>
+            </g>
+        </g>
+    </g>
+</svg>

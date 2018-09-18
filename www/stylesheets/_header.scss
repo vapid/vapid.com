@@ -1,0 +1,125 @@
+#header {
+  padding: 4rem 2rem 0;
+  text-align: center;
+  background-image: linear-gradient(-180deg, lighten(#C982DC, 10%) 0%, white 100%);
+
+  p {
+    margin: 0 auto 3rem auto;
+    max-width: 51rem;
+  }
+
+  .logo {
+    display: inline-block;
+    max-width: 67.5rem;
+  }
+
+  .tagline {
+    color: $color-headline;
+    font-family: $font-colfax;
+    font-size: 1.4rem;
+    font-weight: 700;
+    font-style: italic;
+    text-transform: uppercase;
+    margin-top: -7rem;
+    margin-bottom: 5rem;
+  }
+
+  .intro {
+    color: $color-intro;
+    font-family: $font-colfax;
+    font-size: 2rem;
+    line-height: 2.8rem;
+    
+    em {
+      font-weight: 500;
+    }
+  }
+
+  .caption {
+    h4 {
+      margin-bottom: 0;
+    }
+    font-size: 1.4rem;
+    line-height: 2rem;
+  }
+
+  .buttons {
+    margin: 6rem 0;
+
+    @include desktop {
+      display: flex;
+      justify-content: center;
+    }
+
+    > div {
+      margin-bottom: 2rem;
+      text-transform: uppercase;
+      color: $color-intro;
+      font-family: $font-colfax;
+      font-size: 1.4rem;
+      font-style: italic;
+      font-weight: 500;
+
+      .button {
+        margin-bottom: 1rem;
+        width: 30rem;
+      }
+
+      &:last-of-type {
+        margin-bottom: 0;
+      }
+
+      @include desktop {
+        margin: 0 1rem 0 0;
+
+        &:last-of-type {
+          margin: 0 0 0 1rem;
+        }
+      }
+    }
+  }
+
+  .screenshots {
+    position: relative;
+    margin-bottom: 3rem;
+
+    > div {
+      display: flex;
+      align-items: center;
+    }
+
+    .code,
+    .dashboard {
+      box-shadow: 0 10px 20px 0 rgba(135,113,155,0.50);
+      border-radius: 4px;
+    }
+
+    .code {
+      margin-right: -2.5%;
+      margin-left: 2.5%;
+    }
+
+    .pointer {
+      position: absolute;
+
+      &:nth-of-type(1) {
+        width: 36%;
+        top: 11.8%;
+        left: 34.3%;
+        transform: rotate(1.5deg);
+      }
+
+      &:nth-of-type(2) {
+        width: 48.5%;
+        top: 42.8%;
+        left: 21.8%;
+      }
+
+      &:nth-of-type(3) {
+        width: 39%;
+        top: 64.5%;
+        left: 31.2%;
+      }
+    }
+  }
+}

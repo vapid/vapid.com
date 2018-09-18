@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="51px" height="51px" viewBox="0 0 51 51" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.3 (57544) - http://www.bohemiancoding.com/sketch -->
+    <title>icon_hosting_cache</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Demo" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Desktop-HD-Copy-2" transform="translate(-1097.000000, -1555.000000)" stroke="#9013FE" stroke-width="2">
+            <g id="Battle-ready-hosting" transform="translate(731.000000, 1315.000000)">
+                <g id="Benefits" transform="translate(0.000000, 200.000000)">
+                    <g id="Cache" transform="translate(320.000000, 1.000000)">
+                        <g id="icon_hosting_cache" transform="translate(47.000000, 40.000000)">
+                            <path d="M48.0434783,35.5217391 C48.0434783,42.4368696 42.4368696,48.0434783 35.5217391,48.0434783 C28.6045217,48.0434783 23,42.4368696 23,35.5217391 C23,28.6055652 28.6045217,23 35.5217391,23 C42.4368696,23 48.0434783,28.6055652 48.0434783,35.5217391 L48.0434783,35.5217391 Z" id="Stroke-8700"></path>
+                            <polyline id="Stroke-8701" stroke-linecap="round" points="41.5217391 33 34.2173913 41.0055652 29 35.7881739"></polyline>
+                            <path d="M39.6521739,8.34782609 C39.6521739,12.957913 30.7742609,16.6956522 19.826087,16.6956522 C8.87791304,16.6956522 0,12.957913 0,8.34782609 C0,3.73773913 8.87791304,0 19.826087,0 C30.7742609,0 39.6521739,3.73773913 39.6521739,8.34782609 L39.6521739,8.34782609 Z" id="Stroke-8702" stroke-linecap="round"></path>
+                            <path d="M19.826087,25.3478261 C8.87791304,25.3478261 0,21.610087 0,17" id="Stroke-8703" stroke-linecap="round"></path>
+                            <path d="M16.6956522,35.2445217 C7.23547826,34.6121739 0,31.1613913 0,27" id="Stroke-8704" stroke-linecap="round"></path>
+                            <path d="M17.7391304,44.4323478 C7.77078261,43.9930435 0,40.4431304 0,36.1304348 L0,9" id="Stroke-8705" stroke-linecap="round"></path>
+                            <path d="M40,9 L40,18.3913043" id="Stroke-8706" stroke-linecap="round"></path>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
