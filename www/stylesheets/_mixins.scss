@@ -3,3 +3,9 @@
     @content;
   }
 }
+
+@mixin tiny-mobile {
+  @media only screen and (max-device-width : $tiny-mobile-width) {
+    @content;
+  }
+}

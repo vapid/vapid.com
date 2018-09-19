@@ -5,7 +5,11 @@
 
   nav {
     text-align: right;
-    padding: 3rem 2rem 0;
+    padding: 2rem 0;
+
+    @include desktop {
+      padding: 3rem 2rem 0;
+    }
 
     a {
       padding: 0.5rem 1rem;
@@ -91,6 +95,10 @@
       .button {
         margin-bottom: 1rem;
         width: 30rem;
+
+        @include tiny-mobile {
+          width: 28rem;
+        }
       }
 
       &:last-of-type {
