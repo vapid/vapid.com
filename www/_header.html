@@ -1,4 +1,10 @@
 <header id="header">
+  {{#if banner}}
+    <div class="banner">
+      <span>{{banner type=html required=false}}</span>
+    </div>
+  {{/if}}
+
   <nav>
     <a href="/dashboard">Login</a>
   </nav>
@@ -13,11 +19,11 @@
   <div class="buttons">
     <div>
       <a href="https://goo.gl/forms/NkJMSlAELPKisrsc2" class="button" target="_blank">Join the private beta</a>
-      <div>Open Source CMS</div>
+      <div>Web Hosting</div>
     </div>
     <div>
       <a href="#get-started" data-scroll="#get-started" class="purple button">Get started now</a>
-      <div>Web Hosting</div>
+      <div>Open Source CMS</div>
     </div>
   </div>
 

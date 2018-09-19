@@ -3,12 +3,47 @@
   text-align: center;
   background-image: linear-gradient(-180deg, lighten(#C982DC, 10%) 0%, white 100%);
 
+  .banner {
+    position: absolute;
+    top: 1.7rem;
+    left: 2rem;
+    width: 100%;
+    text-align: left;
+
+    @include desktop {
+      position: absolute;
+      top: 2.7rem;
+      left: 4rem; 
+    }
+
+    @include tiny-mobile {
+      left: 1rem; 
+    }
+
+    span {
+      display: inline-block;
+      padding: 0.5rem 1.5rem;
+      font-family: $font-colfax;
+      font-size: 1.4rem;
+      font-style: italic;
+      font-weight: 600;
+      text-transform: uppercase;
+      color: $color-headline;
+      background: rgba(255,255,255,0.4);
+      border-radius: 5px;
+    }
+  }
+
   nav {
     text-align: right;
     padding: 2rem 0;
 
     @include desktop {
       padding: 3rem 2rem 0;
+    }
+
+    @include tiny-mobile {
+      margin-right: -1rem;
     }
 
     a {
