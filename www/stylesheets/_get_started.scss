@@ -1,4 +1,13 @@
 #get-started {
+	a {
+		text-decoration: underline;
+		color: darken($color-body, 20%);
+
+		&:hover {
+			color: darken($color-body, 40%);
+		}
+	}
+
 	.container {
 		background: url(../images/bg_get_started.png) center 4rem no-repeat;
 		background-size: 51rem auto;
