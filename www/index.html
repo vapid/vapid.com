@@ -7,6 +7,27 @@
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Karla">
   <link rel="stylesheet" href="https://use.typekit.net/ait5ccv.css">
   <link rel="stylesheet" type="text/css" href="/stylesheets/site.css">
+
+  {{#section social}}
+  <!-- Facebook -->
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="{{title}}">
+  <meta property="og:site_name" content="Vapid">
+  <meta property="og:description" content="{{description}}">
+  <meta property="og:image" content="{{image type=image tag=false}}">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="628">
+  <meta property="og:url" content="https://www.vapid.com">
+  <!-- /Facebook -->
+
+  <!-- Twitter -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:site" content="@hellovapid">
+  <meta name="twitter:title" content="{{title}}">
+  <meta name="twitter:description" content="{{description}}">
+  <meta name="twitter:image" content="{{image type=image tag=false}}">
+  <!-- /Twitter -->
+  {{/section}}
 </head>
 <body>
   {{> header}}
