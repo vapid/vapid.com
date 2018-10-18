@@ -40,7 +40,11 @@
 
   .logo {
     display: block;
-    margin-bottom: 3rem;
+    margin-bottom: 6rem;
+
+    @include desktop {
+      margin-bottom: 3rem; 
+    }
 
     img {
       max-width: 8.8rem;
@@ -52,8 +56,7 @@
   }
 
   .menu {
-    display: inline-block;
-    margin-right: 3rem;
+    display: block;
 
     @include desktop {
       margin-right: 9rem;

@@ -1,0 +1,47 @@
+body.page {
+  header {
+    padding: 3rem;
+
+    .logo {
+      display: inline-block;
+      width: 8.9rem;
+      height: 2.4rem;
+      font-size: 0;
+
+      &:before {
+        display: block;
+        content: '';
+        width: 8.9rem;
+        height: 2.4rem;
+        background: url('../images/logo_small.png') no-repeat;
+        background-size: 100%;
+      }
+    }
+  }
+
+  main, header {
+    @extend .container;
+  }
+
+  main {
+    padding-top: 0;
+  }
+
+  a {
+    font-weight: bold;
+    color: $color-headline;
+  }
+
+  h2, h3, p, ol {
+    margin: 0 0 3rem;
+  }
+
+  ol, ul {
+    margin: 3rem 0;
+    padding: 0 0 0 3rem;
+
+    li {
+      margin-bottom: 1rem;
+    }
+  }
+}
