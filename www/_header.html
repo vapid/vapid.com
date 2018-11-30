@@ -1,11 +1,10 @@
 <header id="header">
-  {{#if banner}}
-    <div class="banner">
-      <span>{{banner type=html required=false}}</span>
-    </div>
-  {{/if}}
+  <nav class="left">
+    <a href="https://medium.com/@hellovapid/hello-vapid-db3709ad5b82" target="_blank">Why Vapid?</a>
+    <a href="#get-started" data-scroll="#get-started">Open Source</a>
+  </nav>
 
-  <nav>
+  <nav class="right">
     <a href="/dashboard">Login</a>
   </nav>
   
@@ -16,16 +15,17 @@
     {{intro type=html}}
   </div>
 
-  <div class="buttons">
-    <div>
-      <a href="https://goo.gl/forms/NkJMSlAELPKisrsc2" class="button" target="_blank">Join the private beta</a>
-      <div>Web Hosting</div>
+  <div id="flash"></div>
+
+  <form name="signup" action="/sign_up" method="post">
+    <div class="field">
+      <input type="email" name="email" placeholder="Your email address" required>
     </div>
-    <div>
-      <a href="#get-started" data-scroll="#get-started" class="purple button">Get started now</a>
-      <div>Open Source CMS</div>
+
+    <div class="field">
+      <input type="submit" class="button" value="Sign up free">
     </div>
-  </div>
+  </form>
 
   <div class="screenshots">
     <div>

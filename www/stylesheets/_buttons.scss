@@ -11,10 +11,12 @@
   text-transform: none;
   background-image: linear-gradient(-199deg, #80C3F3 0%, #4A90E2 100%);
   box-shadow: 0 2px 4px 0 rgba(0,0,0,0.50);
+  border: none;
   border-radius: 3px;
   outline: none;
   -webkit-appearance: none;
   transition: none;
+  cursor: pointer;
 
   &:hover {
     background-image: linear-gradient(-199deg, #4A90E2 0%, #4A90E2 100%);
