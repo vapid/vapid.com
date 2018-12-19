@@ -32,8 +32,13 @@ body.page {
     color: $color-headline;
   }
 
-  h2, h3, p, ol {
+  h2, h3, p, ul, ol {
+    line-height: 1.33em;
     margin: 0 0 3rem;
+  }
+
+  h4 {
+    margin: 0 0 1.5rem;
   }
 
   ol, ul {
