@@ -31,6 +31,6 @@ document.addEventListener('DOMContentLoaded', () => {
       flash('Sorry, an error occured. Please contact us at hello@vapid.com.');
     };
 
-    request.send(`email=${$email.value}`);
+    request.send(`email=${encodeURIComponent($email.value)}`);
   });
 });
