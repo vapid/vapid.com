@@ -24,15 +24,7 @@
 
     <div id="flash"></div>
 
-    <form name="signup" action="/sign_up" method="post" data-rewardful>
-      <div class="field">
-        <input type="email" name="email" placeholder="Your email address" required>
-      </div>
-
-      <div class="field">
-        <input type="submit" class="button" value="Sign up free">
-      </div>
-    </form>
+    {{> signup}}
 
     <div class="screenshots">
       <div>
@@ -68,6 +60,7 @@
     </div>
     {{> ethos}}
     {{> get_started}}
+    {{> pricing}}
   </main>
 
   {{> footer}}

@@ -9,16 +9,16 @@
 	}
 
 	.container {
-		background: url(../images/bg_get_started.png) center 4rem no-repeat;
+		background: url(../images/bg_get_started.png) center 7rem no-repeat;
 		background-size: 51rem auto;
-		padding-top: 12rem; 
-		padding-bottom: 12rem; 
+		padding-top: 15rem; 
+		padding-bottom: 15rem; 
 		text-align: center;
 
 		@include desktop {
-			padding-top: 16rem; 
+			padding-top: 19rem; 
 			padding-bottom: 16rem;
-			background-position: center 8rem;
+			background-position: center 11rem;
 
 			> div {
 				flex: 1;

@@ -1,0 +1,51 @@
+{{#section pricing}}
+<section id="pricing">
+  <div class="container">
+    <header>
+      <h3>{{title}}</h3>
+    </header>
+
+    <div class="content">
+      {{intro type=html}}
+    </div>
+
+    <div class="concepts">
+      <div>
+        <div>
+          <h4>Single</h4>
+          <div class="price">$7<small>per month</small></div>
+          <p>Best for individuals or companies that want the ease and security of hosting one website with Vapid.</p>
+        </div>
+        <pre><code>{{single_plan type=html}}
+        </code></pre>
+      </div>
+
+      <div>
+        <div>
+          <h4>Personal</h4>
+          <div class="price">$15 <small>per month</small></div>
+          <p>Best for individuals who have multiple websites, or designers who want to share previews with their clients.</p>
+        </div>
+        <pre><code>{{personal_plan type=html}}
+        </code></pre>
+      </div>
+
+      <div>
+        <div>
+          <h4>Small Business</h4>
+          <div class="price">$35 <small>per month</small></div>
+          <p>Best for designers or small agencies that have multiple properties, or host client websites.</p>
+        </div>
+        <pre><code>{{business_plan type=html}}
+        </code></pre>
+      </div>
+    </div>
+
+    <p><small>Need more than the Small Business plan? No problem. <br class="desktop" />We also offer an Agency plan for <strong>$200 per month</strong>, which includes unlimited websites.</small></p>
+
+    <p><small>Want to host a Vapid site yourself? <br class="desktop" />No problem, you can <a href="https://github.com/vapid/vapid/wiki/Self%E2%80%90hosting" style="font-weight: bold; text-decoration: underline;" target="_blank">self-host</a> on any platform that supports Node.js.</small></p>
+
+    {{> signup}}
+  </div>
+</section>
+{{/section}}

@@ -112,6 +112,14 @@ img {
   &.right  { text-align: right !important; }
 }
 
+br.desktop {
+  display: none;
+
+  @include desktop {
+    display: block;
+  }
+}
+
 .container {
   margin: 0 auto;
   padding: 4rem 2rem;

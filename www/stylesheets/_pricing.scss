@@ -1,0 +1,73 @@
+#pricing {
+  text-align: center;
+
+  .price {
+    margin: 4rem auto 2rem;
+    font-family: colfax-web, sans-serif;
+    font-size: 5rem;
+    font-weight: 900;
+    color: #591F7A;
+    text-align: center;
+
+    small {
+      display: block;
+      font-size: 1.2rem;
+      font-weight: normal;
+      margin-top: 1rem;
+    }
+  }
+
+  form input[type=email] {
+    border-color: #ccc;
+  }
+
+  .concepts {
+    margin: 6rem 0;
+    font-size: 1.4rem;
+    line-height: 2rem;
+
+    h4 {
+      margin-bottom: 2rem;
+      text-align: center;
+    }
+
+    a {
+      font-weight: 500;
+      text-decoration: underline;
+
+      &:hover {
+        color: darken($color-body, 20%);
+      }
+    }
+
+    @include desktop {
+      display: flex;
+    }
+
+    > div {
+      margin-bottom: 3rem;
+      padding: 3rem 2rem 1rem 2rem;
+      font-family: $font-colfax;
+      background: white;
+      box-shadow: 0 2px 10px 0 rgba(135,113,155,0.50);
+      border-radius: 10px;
+      text-align: left;
+
+      @include desktop {
+        display: flex;
+        flex-direction: column;
+        flex: 1;
+        margin-right: 2rem;
+        margin-bottom: 0;
+      }
+
+      &:last-child {
+        margin-right: 0;
+      }
+
+      > div {
+        flex: 1;
+      }
+    }
+  }
+}
