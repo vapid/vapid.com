@@ -2,44 +2,58 @@
 <html lang="en">
 <head>
   <title>Vapid: an intentionally simple CMS</title>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Karla">
-  <link rel="stylesheet" href="https://use.typekit.net/ait5ccv.css">
-  <link rel="stylesheet" type="text/css" href="/stylesheets/site.css">
-
-  {{#section social}}
-  <!-- Facebook -->
-  <meta property="og:type" content="website" />
-  <meta property="og:title" content="{{title}}">
-  <meta property="og:site_name" content="Vapid">
-  <meta property="og:description" content="{{description}}">
-  <meta property="og:image" content="{{image type=image tag=false}}">
-  <meta property="og:image:width" content="1200">
-  <meta property="og:image:height" content="628">
-  <meta property="og:url" content="https://www.vapid.com">
-  <!-- /Facebook -->
-
-  <!-- Twitter -->
-  <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:site" content="@hellovapid">
-  <meta name="twitter:title" content="{{title}}">
-  <meta name="twitter:description" content="{{description}}">
-  <meta name="twitter:image" content="{{image type=image tag=false}}">
-  <!-- /Twitter -->
-  {{/section}}
-
-  <link rel="apple-touch-icon" sizes="180x180" href="https://cdn.vapid.site/apple-touch-icon.png">
-  <link rel="icon" href="https://cdn.vapid.site/favicon.ico">
-  <link rel="icon" type="image/png" sizes="32x32" href="https://cdn.vapid.site/favicon-32x32.png">
-  <link rel="icon" type="image/png" sizes="16x16" href="https://cdn.vapid.site/favicon-16x16.png">
-  <link rel="manifest" href="https://cdn.vapid.site/site.webmanifest">
-  <link rel="mask-icon" href="https://cdn.vapid.site/safari-pinned-tab.svg" color="#6155ce">
-  <meta name="msapplication-TileColor" content="#da7bea">
-  <meta name="theme-color" content="#ffffff">
+  {{> head}}
 </head>
 <body>
-  {{> header}}
+  <header id="header">
+    <nav class="left">
+      <a href="https://medium.com/@hellovapid/hello-vapid-db3709ad5b82" target="_blank">Why Vapid?</a>
+      <a href="#get-started" data-scroll="#get-started">Open Source</a>
+    </nav>
+
+    <nav class="right">
+      <a href="/dashboard">Login</a>
+    </nav>
+    
+    <img src="/images/logo.png" class="logo fit" alt="Vapid logo">
+    <p class="tagline">{{tagline}}</p>
+
+    <div class="intro">
+      {{intro type=html}}
+    </div>
+
+    <div id="flash"></div>
+
+    <form name="signup" action="/sign_up" method="post" data-rewardful>
+      <div class="field">
+        <input type="email" name="email" placeholder="Your email address" required>
+      </div>
+
+      <div class="field">
+        <input type="submit" class="button" value="Sign up free">
+      </div>
+    </form>
+
+    <div class="screenshots">
+      <div>
+        <div class="code">
+          <img src="/images/code.jpg" class="fit" alt="Screenshot of HTML code">
+        </div>
+        <div class="dashboard">
+          <img src="/images/dashboard.jpg" class="fit" alt="Screenshot of Vapid dashboard">
+        </div>
+      </div>
+
+      <img src="/images/pointer_1.svg" class="pointer" alt="Pointer to hero image code and dashboard input" aria-hidden="true">
+      <img src="/images/pointer_2.svg" class="pointer" alt="Pointer to headline code and dashboard input" aria-hidden="true">
+      <img src="/images/pointer_3.svg" class="pointer" alt="Pointer to intro code and dashboard input" aria-hidden="true">
+    </div>
+
+    <div class="caption">
+      <h4>{{caption_headline}}</h4>
+      <div class="content">{{caption_body type=html}}</div>
+    </div>
+  </header>
 
   <main>
     <div class="inline container">
@@ -57,16 +71,5 @@
   </main>
 
   {{> footer}}
-
-  <script src="/javascripts/site.js"></script>
-  <!-- Global site tag (gtag.js) - Google Analytics -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-110349810-1"></script>
-  <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
-
-    gtag('config', 'UA-110349810-1');
-  </script>
 </body>
 </html>

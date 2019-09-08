@@ -5,11 +5,15 @@
 }
 
 html {
+  height: 100%;
   font-size: 62.5%;
   box-sizing: border-box;
 }
 
 body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100%;
   color: $color-body;
   font-family: $font-karla;
   font-size: 1.6rem;
@@ -20,6 +24,10 @@ body {
     font-size: 1.8rem;
     line-height: 2.4rem;
   }
+}
+
+main {
+  flex: 1;
 }
 
 h1, h2, h3, h4, h5 {
@@ -112,6 +120,10 @@ img {
   @include desktop {
     padding-top: 8rem;
     padding-bottom: 8rem;
+  }
+
+  &.narrow {
+    max-width: $content-width * 0.65;
   }
 
   &.inline {

@@ -14,6 +14,13 @@ document.addEventListener('DOMContentLoaded', () => {
     e.preventDefault();
 
     const request = new XMLHttpRequest();
+    const params = {
+      email: $email.value,
+      referral: window.Rewardful ? Rewardful.referral : '',
+    };
+    const body = Object.keys(params)
+      .map((key) => `${key}=${encodeURIComponent(params[key])}`)
+      .join('&');
 
     $flash.style.display = 'none';
     $submit.value = "Signing up...";
@@ -27,10 +34,10 @@ document.addEventListener('DOMContentLoaded', () => {
       flash(JSON.parse(request.responseText).message);
     }
 
-    request.onerror = () => {
+    request.onerror = (e) => {
       flash('Sorry, an error occured. Please contact us at hello@vapid.com.');
     };
 
-    request.send(`email=${encodeURIComponent($email.value)}`);
+    request.send(body);
   });
 });
