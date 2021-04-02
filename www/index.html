@@ -5,49 +5,9 @@
   {{> head}}
 </head>
 <body>
-  <header id="header">
+  <div>
     <img src="/images/logo.png" class="logo fit" alt="Vapid logo">
-    <p class="tagline">{{tagline}}</p>
-
-    <div class="intro">
-      {{intro type=html}}
-    </div><br />
-
-    <div class="screenshots">
-      <div>
-        <div class="code">
-          <img src="/images/code.jpg" class="fit" alt="Screenshot of HTML code">
-        </div>
-        <div class="dashboard">
-          <img src="/images/dashboard.jpg" class="fit" alt="Screenshot of Vapid dashboard">
-        </div>
-      </div>
-
-      <img src="/images/pointer_1.svg" class="pointer" alt="Pointer to hero image code and dashboard input" aria-hidden="true">
-      <img src="/images/pointer_2.svg" class="pointer" alt="Pointer to headline code and dashboard input" aria-hidden="true">
-      <img src="/images/pointer_3.svg" class="pointer" alt="Pointer to intro code and dashboard input" aria-hidden="true">
-    </div>
-
-    <div class="caption">
-      <h4>{{caption_headline}}</h4>
-      <div class="content">{{caption_body type=html}}</div>
-    </div>
-  </header>
-
-  <main>
-    <div class="inline container">
-      {{> open_source}}
-    </div>
-    <div class="deployed">
-      <h5>Deployed live by</h5>
-      {{#section customers sortable=true}}
-        <img src="{{logo type=image tag=false}}" alt="{{alt escape=true}}">
-      {{/section}}
-    </div>
-    {{> ethos}}
-    {{> get_started}}
-  </main>
-
-  {{> footer}}
+    <p>Sadly, the Vapid hosting service and CMS platform have been retired. Thank you, though, for your support and interest. Please check back down the road for the next encarnation.</p>
+  </div>
 </body>
 </html>
